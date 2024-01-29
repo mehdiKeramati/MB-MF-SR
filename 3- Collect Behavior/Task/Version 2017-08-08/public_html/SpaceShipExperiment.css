@@ -1,0 +1,56 @@
+.Main {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #92aedd;
+    font-family:Arial,Helvetica,sans-serif;
+}
+.DivElements {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+   }
+   
+
+ .loader {
+  margin:auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #7e7e7e;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.bg1 
+{
+  background-image: url('images/Happy.png');
+     background-repeat: no-repeat;
+    background-position: center top; 
+}
+
+.bg2 
+{
+  background-image: url('images/Sad.png');
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+}
+
+ .OutcomeImg {
+  margin:auto;
+  width: 120px;
+  height: 120px;
+text-align: center;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
